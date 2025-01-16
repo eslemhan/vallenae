@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.11.0] - 2025-01-16
+
+### Added
+
+- `PriDatabase.to_datetime` to convert relative times to absolute datetime objects (#32)
+- Python 3.13 support (#34)
+
+### Changed
+
+- Drop Python 3.6 support (#30)
+- Migrate from named tuples to dataclasses (#31)
+
 ## [0.10.1] - 2024-07-29
 
 ### Fixed
@@ -199,7 +211,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Initial public release
 
-[Unreleased]: https://github.com/vallen-systems/pyVallenAE/compare/0.10.1...HEAD
+[Unreleased]: https://github.com/vallen-systems/pyVallenAE/compare/0.11.0...HEAD
+[0.11.0]: https://github.com/vallen-systems/pyVallenAE/compare/0.10.1...0.11.0
 [0.10.1]: https://github.com/vallen-systems/pyVallenAE/compare/0.10.0...0.10.1
 [0.10.0]: https://github.com/vallen-systems/pyVallenAE/compare/0.9.0...0.10.0
 [0.9.0]: https://github.com/vallen-systems/pyVallenAE/compare/0.8.0...0.9.0
