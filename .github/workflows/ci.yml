@@ -78,9 +78,13 @@ jobs:
         run: python -m build --outdir dist/ .
       - name: Publish package to Test PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+        continue-on-error: true
         with:
           repository-url: https://test.pypi.org/legacy/
           skip-existing: true
+          verbose: true
       - name: Publish package to PyPI
         if: github.event_name == 'release'
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          verbose: true
