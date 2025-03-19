@@ -41,8 +41,6 @@ $ pip install -U git+https://github.com/vallen-systems/vallenae.git
 $ pip install -U https://github.com/vallen-systems/vallenae/zipball/master
 ```
 
-Please note, that `vallenae` requires Python 3.7 or newer. On Linux systems, `pip` is usually mapped to Python 2, so use `pip<version>` (e.g. `pip3` or `pip3.7`) instead. Alternatively, you can run `pip` from your specific Python version with `python<version> -m pip`.
-
 ## Contributing
 
 Feature requests, bug reports and fixes are always welcome!
