@@ -12,6 +12,8 @@ Acoustic Emission
     peak_amplitude_index
     is_above_threshold
     first_threshold_crossing
+    last_threshold_crossing
+    duration
     rise_time
     energy
     signal_strength
