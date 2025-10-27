@@ -22,6 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering",
     "Topic :: Software Development",
@@ -147,8 +148,8 @@ legacy_tox_ini = """
 envlist =
     ruff
     mypy
-    py{37, 38, 39, 310, 311, 312}
-    py{37, 38, 39, 310, 311, 312}-numba
+    py{37, 38, 39, 310, 311, 312, 313, 314}
+    py{37, 38, 39, 310, 311, 312, 313, 314}-numba
     pyinstaller
     coverage-report
     docs
@@ -169,7 +170,7 @@ setenv =
 deps =
     numba: numba
 extras = tests
-commands = 
+commands =
     coverage run -m pytest --benchmark-disable
 
 [testenv:coverage-report]
