@@ -63,7 +63,7 @@ sphinx_gallery_conf = {
 
 html_theme = "furo"
 html_theme_options = {
-    "source_repository": "https://github.com/vallen-systems/pyVallenAE/",
+    "source_repository": "https://github.com/vallen-systems/vallenae/",
     "source_branch": "master",
     "source_directory": "docs/",
 }
