@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.0] - 2025-12-08
+
+### Added
+
+- Python 3.14 support
+
+### Fixed
+
+- Return time axis copy from `TraDatabase.read_wave`/`TraDatabase.read_continuous_wave` (#43)
+
 ## [0.12.0] - 2025-08-12
 
 ### Added
@@ -218,7 +228,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Initial public release
 
-[Unreleased]: https://github.com/vallen-systems/pyVallenAE/compare/0.12.0...HEAD
+[Unreleased]: https://github.com/vallen-systems/pyVallenAE/compare/0.13.0...HEAD
+[0.13.0]: https://github.com/vallen-systems/pyVallenAE/compare/0.12.0...0.13.0
 [0.12.0]: https://github.com/vallen-systems/pyVallenAE/compare/0.11.0...0.12.0
 [0.11.0]: https://github.com/vallen-systems/pyVallenAE/compare/0.10.1...0.11.0
 [0.10.1]: https://github.com/vallen-systems/pyVallenAE/compare/0.10.0...0.10.1
